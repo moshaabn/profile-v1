@@ -142,7 +142,7 @@ export default function Footer() {
 
         <div className="border-t border-slate-600 mt-12 pt-8 text-center">
           <p className={`${tw.text.muted} text-lg font-body`}>
-            © 2024 Mohamed Shaaban. Built with Next.js and Tailwind CSS.
+            © {new Date().getFullYear()} Mohamed Shaaban. Built with Next.js and Tailwind CSS.
           </p>
         </div>
       </div>
