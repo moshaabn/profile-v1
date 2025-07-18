@@ -13,7 +13,7 @@ export default function Hero() {
           Mohamed Shaaban - Senior Software Engineer
         </h1>
         <p className={`animate-on-scroll text-lg md:text-xl lg:text-2xl mb-12 ${tw.text.muted} max-w-3xl mx-auto leading-relaxed font-body`}>
-          Results-driven Senior Backend Engineer with 7+ years of experience in designing and developing scalable web applications. 
+          Results-driven portfolio showcasing Mohamed Shaaban&apos;s expertise as a Senior Backend Engineer with 7+ years of experience in designing and developing scalable web applications. 
           Proficient in .NET Core, Node.js, and database optimization.
         </p>
         <div className="animate-slide-left flex flex-col sm:flex-row gap-6 justify-center items-center">

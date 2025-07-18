@@ -5,6 +5,7 @@ export default function Skills() {
     <section id="skills" className={`container mx-auto px-6 py-20 lg:py-32 ${tw.bg.overlay}`}>
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl lg:text-4xl font-bold mb-16 text-center font-heading">Technical Skills</h2>
+        <h3 className={`text-2xl font-semibold mb-8 text-center ${tw.text.primary} font-heading`}>Core Technologies</h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className={`${tw.bg.card} p-8 rounded-2xl card-hover`}>
             <h4 className={`text-2xl font-semibold mb-6 ${tw.text.primary} font-heading`}>Backend</h4>

@@ -12,7 +12,7 @@ import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Mohamed Shaaban - Senior Software Engineer Portfolio",
-  description: "Professional portfolio of Mohamed Shaaban - Senior Software Engineer with 7+ years of experience in designing and developing scalable web applications using .NET Core, Node.js, React, and TypeScript.",
+  description: "Senior Software Engineer with 7+ years experience in .NET Core, Node.js, React & TypeScript. Alexandria, Egypt based developer.",
 };
 
 export default function Home() {

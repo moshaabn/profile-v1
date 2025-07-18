@@ -72,7 +72,7 @@ export default function Footer() {
                   href="#home"
                   className={`${tw.text.secondary} hover:text-emerald-400 transition-colors duration-300 text-lg font-body`}
                 >
-                  Home
+                  Back to Top
                 </a>
               </li>
               <li>
@@ -80,7 +80,7 @@ export default function Footer() {
                   href="#about"
                   className={`${tw.text.secondary} hover:text-emerald-400 transition-colors duration-300 text-lg font-body`}
                 >
-                  About
+                  About Mohamed
                 </a>
               </li>
               <li>
@@ -88,7 +88,7 @@ export default function Footer() {
                   href="#experience"
                   className={`${tw.text.secondary} hover:text-emerald-400 transition-colors duration-300 text-lg font-body`}
                 >
-                  Experience
+                  Work History
                 </a>
               </li>
               <li>
@@ -96,7 +96,7 @@ export default function Footer() {
                   href="#skills"
                   className={`${tw.text.secondary} hover:text-emerald-400 transition-colors duration-300 text-lg font-body`}
                 >
-                  Skills
+                  Technical Expertise
                 </a>
               </li>
               <li>
@@ -104,7 +104,7 @@ export default function Footer() {
                   href="#contact"
                   className={`${tw.text.secondary} hover:text-emerald-400 transition-colors duration-300 text-lg font-body`}
                 >
-                  Contact
+                  Contact Info
                 </a>
               </li>
             </ul>

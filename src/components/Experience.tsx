@@ -7,6 +7,7 @@ export default function Experience() {
         <h2 className="text-3xl lg:text-4xl font-bold mb-16 text-center font-heading">Work Experience</h2>
         <div className="space-y-8">
           {/* Current Position */}
+          <h3 className={`text-2xl font-semibold ${tw.text.primary} mb-4 font-heading`}>Current Roles</h3>
           <div className={`${tw.bg.card} p-8 rounded-2xl card-hover`}>
             <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-6">
               <div className="flex-1">
@@ -42,7 +43,8 @@ export default function Experience() {
             </ul>
           </div>
 
-          {/* Mid Level Position */}
+          {/* Previous Roles */}
+          <h3 className={`text-2xl font-semibold ${tw.text.primary} mb-4 font-heading`}>Previous Experience</h3>
           <div className={`${tw.bg.card} p-8 rounded-2xl card-hover`}>
             <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-6">
               <div className="flex-1">
