@@ -15,35 +15,41 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://moshaabn.github.io/profile-v1'),
   title: {
-    default: "Portfolio | Mohamed Shaaban",
-    template: "%s | Mohamed Shaaban Portfolio",
+    default: "Mohamed Shaaban - Senior Software Engineer Portfolio",
+    template: "%s | Mohamed Shaaban",
   },
-  description: "Professional portfolio of Mohamed Shaaban - Senior Software Engineer with 7+ years of experience in designing and developing scalable web applications. Built with Next.js, TypeScript, and Tailwind CSS.",
-  keywords: ["portfolio", "software engineer", "senior developer", ".NET Core", "Node.js", "React", "TypeScript", "JavaScript", "Mohamed Shaaban"],
-  authors: [{ name: "Mohamed Shaaban" }],
+  description: "Professional portfolio of Mohamed Shaaban - Senior Software Engineer with 7+ years of experience in full-stack development. Expertise in .NET Core, Node.js, React, TypeScript, and scalable web applications.",
+  keywords: ["Mohamed Shaaban", "Senior Software Engineer", "Full-Stack Developer", ".NET Core", "Node.js", "React", "TypeScript", "JavaScript", "Backend Engineer", "Alexandria Egypt", "Software Development", "Web Applications"],
+  authors: [{ name: "Mohamed Shaaban", url: "https://moshaabn.github.io/profile-v1" }],
   creator: "Mohamed Shaaban",
+  publisher: "Mohamed Shaaban",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "/",
-    title: "Portfolio | Mohamed Shaaban",
-    description: "Professional portfolio of Mohamed Shaaban - Senior Software Engineer with 7+ years of experience in designing and developing scalable web applications.",
+    title: "Mohamed Shaaban - Senior Software Engineer Portfolio",
+    description: "Professional portfolio of Mohamed Shaaban - Senior Software Engineer with 7+ years of experience in full-stack development. Expertise in .NET Core, Node.js, React, and TypeScript.",
     siteName: "Mohamed Shaaban Portfolio",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Mohamed Shaaban Portfolio",
+        alt: "Mohamed Shaaban - Senior Software Engineer Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Portfolio | Mohamed Shaaban",
-    description: "Professional portfolio of Mohamed Shaaban - Senior Software Engineer with 7+ years of experience in designing and developing scalable web applications.",
+    title: "Mohamed Shaaban - Senior Software Engineer Portfolio",
+    description: "Professional portfolio of Mohamed Shaaban - Senior Software Engineer with 7+ years of experience in full-stack development.",
     images: ["/og-image.jpg"],
     creator: "@moshaabn",
   },

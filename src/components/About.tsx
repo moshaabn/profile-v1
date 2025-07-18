@@ -10,7 +10,7 @@ export default function About() {
   return (
     <section id="about" className="container mx-auto px-6 py-20 lg:py-32">
       <div className="max-w-6xl mx-auto">
-        <h3 className="animate-bounce-in text-3xl lg:text-4xl font-bold mb-12 text-center font-heading">About Me</h3>
+        <h2 className="animate-bounce-in text-3xl lg:text-4xl font-bold mb-12 text-center font-heading">About Me</h2>
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="order-2 lg:order-1 animate-slide-left">
             <p className={`text-lg lg:text-xl ${tw.text.muted} mb-6 leading-relaxed font-body`}>

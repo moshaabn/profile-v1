@@ -4,7 +4,7 @@ export default function Experience() {
   return (
     <section id="experience" className={`container mx-auto px-6 py-20 lg:py-32 ${tw.bg.overlay}`}>
       <div className="max-w-6xl mx-auto">
-        <h3 className="text-3xl lg:text-4xl font-bold mb-16 text-center font-heading">Work Experience</h3>
+        <h2 className="text-3xl lg:text-4xl font-bold mb-16 text-center font-heading">Work Experience</h2>
         <div className="space-y-8">
           {/* Current Position */}
           <div className={`${tw.bg.card} p-8 rounded-2xl card-hover`}>

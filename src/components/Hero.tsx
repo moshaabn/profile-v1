@@ -9,9 +9,9 @@ export default function Hero() {
   return (
     <main id="home" className="container mx-auto px-6 py-20 lg:py-32 relative">
       <div className="text-center max-w-4xl mx-auto">
-        <h2 className={`animate-bounce-in text-4xl md:text-6xl lg:text-7xl font-bold mb-6 ${tw.gradient.text} leading-tight`}>
-          Senior Software Engineer
-        </h2>
+        <h1 className={`animate-bounce-in text-4xl md:text-6xl lg:text-7xl font-bold mb-6 ${tw.gradient.text} leading-tight`}>
+          Mohamed Shaaban - Senior Software Engineer
+        </h1>
         <p className={`animate-on-scroll text-lg md:text-xl lg:text-2xl mb-12 ${tw.text.muted} max-w-3xl mx-auto leading-relaxed font-body`}>
           Results-driven Senior Backend Engineer with 7+ years of experience in designing and developing scalable web applications. 
           Proficient in .NET Core, Node.js, and database optimization.

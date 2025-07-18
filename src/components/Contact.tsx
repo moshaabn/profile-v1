@@ -12,9 +12,9 @@ export default function Contact() {
       className={`container mx-auto px-6 py-20 lg:py-32 ${tw.bg.overlay}`}
     >
       <div className="max-w-4xl mx-auto">
-        <h3 className="text-3xl lg:text-4xl font-bold mb-8 text-center font-heading">
+        <h2 className="text-3xl lg:text-4xl font-bold mb-8 text-center font-heading">
           Get In Touch
-        </h3>
+        </h2>
         <p
           className={`text-xl ${tw.text.secondary} mb-16 text-center max-w-2xl mx-auto font-body leading-relaxed`}
         >
