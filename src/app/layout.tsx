@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     default: "Mohamed Shaaban - Senior Software Engineer Portfolio",
     template: "%s | Mohamed Shaaban",
   },
-  description: "Senior Software Engineer with 7+ years experience in .NET Core, Node.js, React & TypeScript. Alexandria, Egypt based developer.",
+  description: "Senior Software Engineer with 7+ years experience in .NET Core, Node.js, React & TypeScript. Full-stack developer specializing in scalable web applications and modern development practices. Based in Alexandria, Egypt.",
   keywords: ["Mohamed Shaaban", "Senior Software Engineer", "Full-Stack Developer", ".NET Core", "Node.js", "React", "TypeScript", "JavaScript", "Backend Engineer", "Alexandria Egypt", "Software Development", "Web Applications"],
   authors: [{ name: "Mohamed Shaaban", url: "https://moshaabn.github.io/profile-v1" }],
   creator: "Mohamed Shaaban",
