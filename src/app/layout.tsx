@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://moshaabn.github.io/profile-v1'),
+metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://shaabohub.com'),
   title: {
     default: "Mohamed Shaaban - Senior Software Engineer Portfolio",
     template: "%s | Mohamed Shaaban",
