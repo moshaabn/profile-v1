@@ -5,8 +5,8 @@ export default function JsonLd() {
     "name": "Mohamed Shaaban",
     "jobTitle": "Senior Software Engineer",
     "description": "Senior Software Engineer with 7+ years of experience in full-stack development",
-    "url": "https://moshaabn.github.io/profile-v1",
-    "image": "https://moshaabn.github.io/profile-v1/me.png",
+    "url": "https://shaabohub.com",
+    "image": "https://shaabohub.com/me.png",
     "sameAs": [
       "https://linkedin.com/in/mohamed-shaaban-33b805ab",
       "https://github.com/moshaabn",

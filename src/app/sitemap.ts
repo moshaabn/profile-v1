@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://moshaabn.github.io/profile-v1'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://shaabohub.com'
   
   return [
     {
