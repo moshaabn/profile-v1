@@ -16,13 +16,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://shaabohub.com'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://shaabohub.com'),
   title: {
-    default: "Mohamed Shaaban - Senior Software Engineer Portfolio",
-    template: "%s | Mohamed Shaaban",
+    default: "Mohamed Shaaban - Senior Software Engineer & Backend Team Lead",
+    template: "%s | Mohamed Shaaban - Senior Backend Engineer",
   },
-  description: "Senior Software Engineer with 7+ years experience in .NET Core, Node.js, React & TypeScript. Full-stack developer specializing in scalable web applications and modern development practices. Based in Alexandria, Egypt.",
-  keywords: ["Mohamed Shaaban", "Senior Software Engineer", "Full-Stack Developer", ".NET Core", "Node.js", "React", "TypeScript", "JavaScript", "Backend Engineer", "Alexandria Egypt", "Software Development", "Web Applications"],
+  description: "Senior Software Engineer & Backend Team Lead with 7+ years experience. Expert in .NET Core, Node.js, microservices architecture. Proven backend team leadership in scalable enterprise applications.",
+  keywords: ["Senior Software Engineer", "Senior Backend Engineer", "Backend Team Lead", "Mohamed Shaaban", ".NET Core Expert", "Node.js Developer", "Microservices Architecture", "Team Leadership", "Backend Development", "Software Engineering Lead", "Alexandria Egypt", "Enterprise Applications", "Scalable Systems", "Backend Engineer"],
   authors: [{ name: "Mohamed Shaaban", url: "https://shaabohub.com" }],
   creator: "Mohamed Shaaban",
   publisher: "Mohamed Shaaban",
@@ -35,22 +35,22 @@ metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://shaabohub.com
     type: "website",
     locale: "en_US",
     url: "/",
-    title: "Mohamed Shaaban - Senior Software Engineer Portfolio",
-    description: "Professional portfolio of Mohamed Shaaban - Senior Software Engineer with 7+ years of experience in full-stack development. Expertise in .NET Core, Node.js, React, and TypeScript.",
-    siteName: "Mohamed Shaaban Portfolio",
+    title: "Mohamed Shaaban - Senior Software Engineer & Backend Team Lead",
+    description: "Senior Software Engineer & Backend Team Lead with 7+ years experience in .NET Core, Node.js, and microservices. Proven leadership in building scalable enterprise applications and managing backend teams.",
+    siteName: "Mohamed Shaaban - Senior Backend Engineer Portfolio",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Mohamed Shaaban - Senior Software Engineer Portfolio",
+        alt: "Mohamed Shaaban - Senior Software Engineer & Backend Team Lead Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mohamed Shaaban - Senior Software Engineer Portfolio",
-    description: "Professional portfolio of Mohamed Shaaban - Senior Software Engineer with 7+ years of experience in full-stack development.",
+    title: "Mohamed Shaaban - Senior Software Engineer & Backend Team Lead",
+    description: "Senior Software Engineer & Backend Team Lead with 7+ years experience. Expert in .NET Core, Node.js, and team leadership.",
     images: ["/og-image.jpg"],
     creator: "@moshaabn",
   },

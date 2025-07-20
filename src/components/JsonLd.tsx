@@ -3,8 +3,8 @@ export default function JsonLd() {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Mohamed Shaaban",
-    "jobTitle": "Senior Software Engineer",
-    "description": "Senior Software Engineer with 7+ years of experience in full-stack development",
+    "jobTitle": "Senior Software Engineer & Backend Team Lead",
+    "description": "Senior Software Engineer & Backend Team Lead with 7+ years experience. Expert in .NET Core, Node.js, microservices architecture. Proven backend team leadership in scalable enterprise applications.",
     "url": "https://shaabohub.com",
     "image": "https://shaabohub.com/me.png",
     "sameAs": [
@@ -13,14 +13,17 @@ export default function JsonLd() {
       "https://shaabohub.com"
     ],
     "knowsAbout": [
+      "Senior Software Engineering",
+      "Backend Development", 
+      "Team Leadership",
       ".NET Core",
       "Node.js",
-      "React",
-      "TypeScript",
-      "JavaScript",
+      "Microservices Architecture",
+      "Enterprise Applications",
       "Database Optimization",
-      "RESTful APIs",
-      "Software Architecture"
+      "API Development",
+      "Software Architecture",
+      "Backend Team Management"
     ],
     "worksFor": {
       "@type": "Organization",

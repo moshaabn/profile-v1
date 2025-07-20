@@ -14,12 +14,12 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="order-2 lg:order-1 animate-slide-left">
             <p className={`text-lg lg:text-xl ${tw.text.muted} mb-6 leading-relaxed font-body`}>
-              Results-driven Senior Backend Engineer with 7+ years of experience in designing and developing scalable web applications. 
-              Proficient in .NET Core and database optimization. Adept at resolving performance bottlenecks, mentoring teams, and aligning technical solutions with business objectives.
+              Senior Software Engineer and Backend Team Lead with 7+ years of experience in architecting and developing enterprise-grade applications. 
+              Expert in .NET Core, Node.js, and microservices. Proven track record in leading backend development teams and delivering scalable solutions that drive business growth.
             </p>
             <p className={`text-lg lg:text-xl ${tw.text.muted} leading-relaxed font-body`}>
-              Currently working as a Senior Software Engineer at AlexApps, where I develop and maintain RESTful APIs, 
-              make decisions about tech stacks, and mentor junior and mid-level engineers.
+              Currently serving as a Senior Backend Engineer at AlexApps, where I lead technical architecture decisions, 
+              develop high-performance APIs, mentor development teams, and drive best practices in backend development.
             </p>
           </div>
           <div className="order-1 lg:order-2 flex flex-col items-center animate-slide-right">

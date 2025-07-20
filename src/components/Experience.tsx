@@ -11,18 +11,18 @@ export default function Experience() {
           <div className={`${tw.bg.card} p-8 rounded-2xl card-hover`}>
             <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-6">
               <div className="flex-1">
-                <h4 className={`text-2xl font-semibold ${tw.text.primary} mb-2 font-heading`}>Senior Software Engineer</h4>
+                <h4 className={`text-2xl font-semibold ${tw.text.primary} mb-2 font-heading`}>Senior Software Engineer & Backend Team Lead</h4>
                 <p className={`text-xl ${tw.text.secondary} mb-2 font-body`}>AlexApps</p>
               </div>
               <span className={`${tw.text.muted} text-lg font-body mt-2 lg:mt-0`}>2023 - Present</span>
             </div>
             <ul className={`space-y-3 ${tw.text.muted} font-body text-lg leading-relaxed`}>
-              <li>• Developed and maintained RESTful APIs</li>
-              <li>• Make decisions about tech stacks, frameworks, and tools for projects</li>
-              <li>• Mentoring juniors and mid-level engineers, reviewing code, and providing constructive feedback</li>
-              <li>• Solve critical issues, such as performance bottlenecks or system failures</li>
-              <li>• Align technical deliverables with business goals</li>
-              <li>• Automated CI/CD pipelines, reducing deployment time by 25%</li>
+              <li>• Lead backend development team and architect scalable enterprise solutions</li>
+              <li>• Make strategic technical decisions for backend architecture, frameworks, and infrastructure</li>
+              <li>• Mentor junior and senior engineers, conduct code reviews, and establish development best practices</li>
+              <li>• Resolve critical backend performance issues and system architecture challenges</li>
+              <li>• Align backend technical deliverables with business objectives and stakeholder requirements</li>
+              <li>• Implemented automated CI/CD pipelines, reducing deployment time by 25%</li>
             </ul>
           </div>
 
